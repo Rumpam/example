@@ -4,4 +4,4 @@ description
 hooks/
 info
 *~/
-*.idea/
+*.idea/*
