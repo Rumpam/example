@@ -4,4 +4,8 @@ description
 hooks/
 info
 *~/
+<<<<<<< HEAD
 .idea/
+=======
+*.idea/*
+>>>>>>> eb749a5ee5f1313a822629b8e944cb31811bc253
