@@ -25,7 +25,7 @@ class Power {
     void on() {
         System.out.println("turnON");
     }
-    void of() {
+    void off() {
         System.out.println("turnOFF");
     }
 }

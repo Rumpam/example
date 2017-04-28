@@ -7,7 +7,7 @@ public class FactoryMathodApp {
         //Watch watch = new DigitalWatch();
         //watch.showTime();
 
-        WatchMaker maker = getMarketByName("  ");
+        WatchMaker maker = getMarketByName("Rome");
         Watch watch = maker.createWatch();
         watch.showTime();
     }
@@ -33,7 +33,6 @@ class RomeWatch implements Watch {
         System.out.println("VII");
     }
 }
-
 
 interface WatchMaker{
     Watch createWatch();
