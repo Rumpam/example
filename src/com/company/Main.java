@@ -3,7 +3,6 @@ package com.company;
 public class Main {
     public static void main(String[] args) {
         /* Делегирование */
-
         Painter painter = new Painter();
         painter.setGraphics(new Tringle());
         painter.draw();
