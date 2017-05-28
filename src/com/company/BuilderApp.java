@@ -52,7 +52,6 @@ abstract class CarBuilder{
     }
 }
 
-
 class FordMoneoBuilder extends CarBuilder {
     void buildMake() {
         car.setMake("FordMondeo");
