@@ -1,5 +1,10 @@
 package com.company;
 
+
+/* Декоратор - это оболочка над конкретным компанентом(в нащем случае - интерфейс PrinterInterface).
+*  Позволяет не менять клиентский код, а изменения вносить в декораторе, после чего клиенский код покажет изменеия.
+*  Аналогия со сценой. Сцена одна, а декорации меняются.*/
+
 public class DecoratorApp {
     public static void main(String[] args) {
         PrinterInterface printer = new QuotesDecorator(new LeftBraketDecorator(new Printer("Привет")));

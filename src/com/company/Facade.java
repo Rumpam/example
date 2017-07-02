@@ -1,5 +1,6 @@
 package com.company;
 
+/* Фасад - это сохранение ссылок на разные классы.*/
 
 public class Facade {
     public static void main(String[] args){
