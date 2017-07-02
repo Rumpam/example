@@ -1,5 +1,11 @@
 package com.company;
 
+
+/*
+* Абстракная фабрика - предоставляет интерфейс для создания семейств взаимосвязанных или взаимозависимых
+* объектов, не специфицируя их конкретных классов.
+* Абстрактная фабрика использует внутри себя фабричный метод.*/
+
 public class AbstractFactoryApp {
     public static void main (String[] args){
         DeviceFactory factory = getFactoryByContryCode("RU");

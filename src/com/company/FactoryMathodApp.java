@@ -2,6 +2,11 @@ package com.company;
 
 import java.util.Date;
 
+/*
+* Фабричный метод - это паттерн, порождающий классы.
+* Фабричный метод определяет интерфейс для создания объекта, но оставляет подклассам решение о том, какой класс инстанцировать.
+* Фабричный метод позволяет классу делегировать инстанцирование подклассам.*/
+
 public class FactoryMathodApp {
     public static void main(String[] args) {
         //Watch watch = new DigitalWatch();

@@ -43,9 +43,8 @@ static class LeftBraketDecorator extends Decorator{
     public void print(){
         component.print();
         System.out.println("]");
+        }
     }
-}
-
 }
 
 
