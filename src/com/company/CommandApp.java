@@ -1,5 +1,8 @@
 package com.company;
 
+/*Command похож на Facade. Но Фасад использует ссылки на разные классы - power/dvd-rom/hdd.
+* А Комманд использует ссылки только 1 класса - user*/
+
 public class CommandApp {
     public static void main(String[] args){
         Comp c = new Comp();
